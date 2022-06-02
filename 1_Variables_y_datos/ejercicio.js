@@ -43,6 +43,6 @@ console.log('EJERCICIO3');
 var num = "100";
 console.log(num);
 console.log("Tipo de dato de la variable:" + typeof num );
-num = 100;
-console.log(num);
-console.log("Tipo de dato de la variable:" + typeof num );
+var numTrans = parseInt(num)
+console.log(numTrans);
+console.log("Tipo de dato de la variable:" + typeof numTrans);
