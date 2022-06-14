@@ -66,13 +66,46 @@
 // }
 
 // 7. Requerir al usuario que ingrese un día de la semana e imprimir un mensaje si es lunes, otro mensaje diferente si es viernes, otro mensaje diferente si es sábado o domingo. Si el día ingresado no es ninguno de esos, imprimir otro mensaje.
+
+// var dia = prompt('Ingresa un dia de la semana:');
+// if (dia === 'lunes') {
+//     alert(`Hoy es ${dia}, es el primer día de la semana`)
+// }else if(dia === 'viernes'){
+//     alert(`Hoy es ${dia},hoy empieza la fiesta`)
+// }else if(dia === 'sabado'){
+//     alert(`Hoy es ${dia},descansa casi comenzamos la semana`)
+// }else if(dia === 'domingo'){
+//     alert(`Hoy es ${dia},descansa casi comenzamos la semana`)
+// }else{
+//     alert(`Hoy es ${dia},ombligo de semana`)
+// }
+
 // 8. Solicitar al usuario una calificación (entre 1 y 10). Luego se debe comprobar que el número efectivamente esté en ese rango, si no lo está imprima un mensaje de error. Si lo está, imprima "reprobado" si la calificación es inferior a 6, "regular" si está entre 6 y 8, "bien" si es 9, y por último, "excelente" si es 10.
+
+// var calif = Number(prompt('Introduce tu calificacion entre el 1 y el 10'));
+// if (calif < 11 ){
+//     if( calif  < 7){
+//         alert('REPROBADO');
+//     }else if(calif === 7 || calif === 8){
+//         alert('REGULAR');
+//     }else if( calif === 9){
+//         alert('BIEN');
+//     }else if (calif === 10){
+//         alert('EXCELENTE')
+//     }else{
+//         alert('Numero fuera del rango')
+//     }
+// }else{
+//     alert('Numero fuera del rango')
+// }
+
 // 9. Escribe un programa que responda a un usuario que quiere comprar un helado en una conocida marca de comida rápida cuánto le costará en función del topping que elija.
 // El helado sin topping cuesta 50 MXN.
 // El topping de oreo cuesta 10 MXN.
 // El topping de KitKat cuesta 15 MXN.
 // El topping de brownie cuesta 20 MXN.
 // En caso de no disponer del topping solicitado por el usuario, el programa le indicará "no tenemos este topping, lo sentimos." y a continuación le informará el precio del helado sin ningún topping.
+
 
 // 10. Un conocido portal de educación en tecnología está ofreciendo programas para aprender a desarrollar aplicaciones. Escribe un programa que le indique a la persona interesada cuánto deberá pagar mensualmente de acuerdo a la opción elegida.
 // El programa educativo contempla 3 diferentes niveles, cada uno con su costo mensual:
