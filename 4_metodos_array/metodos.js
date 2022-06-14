@@ -87,13 +87,13 @@ frutas.reverse();
 console.log(frutas, 'reverse');
 
 let verduras = ['cebolla', 'cilantro', 'perijil'];
-// concat juntar o unir
+// concat juntar o unir solo dos listas
 //
 
 let listaSaludable = frutas.concat(verduras);
 console.log(listaSaludable);
 let proteina = ['pollito', 'pescado'];
 
-// operador spread operator ... tres puntos es el spread
+// operador spread operator ... tres puntos es el spread y adjunta mas de dos listas
 let listaSaludable2 = [...frutas, ...verduras, ...proteina];
 console.log(listaSaludable2);
