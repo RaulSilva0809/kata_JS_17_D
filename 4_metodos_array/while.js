@@ -12,7 +12,6 @@ while (contador < 5) {
   contador++;
 }
 
-
 let contador2 = 0;
 do {
   //   se ejecuta lo que esta dentro de este bloque mientras el while se true
