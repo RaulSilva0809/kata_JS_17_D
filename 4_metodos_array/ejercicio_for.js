@@ -13,3 +13,20 @@ for(let i = 1; i < 51; i++){
 }
 
 //console.log(EJERCICIO2)
+function imprimirNumeros(){
+  for (let i = 10; i <= 121; i+=10)
+     console.log(i)
+}
+imprimirNumeros()
+
+//console.log(EJERCICIO3)
+let calificaciones = [10, 6, 8, 6, 5]
+//                    0   1  2  3  4  
+// accumulador
+ let sumaCalificaciones = 0
+ for (let i = 0; i < calificaciones.length; i ++){
+   sumaCalificaciones = sumaCalificaciones +  calificaciones[i]
+ }
+
+ console.log(`la calificacion de Joel es: ${sumaCalificaciones / calificaciones.length}`)
+ console.log('la calificacion es: '+ '  ' + sumaCalificaciones / calificaciones.length)
