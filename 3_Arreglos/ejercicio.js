@@ -32,6 +32,8 @@ function random(min, max) {
   let arr = arrays.split(',')
   console.log(arr)
 
+
+  //console.log(EJERCICIO3);
   let num = [10,40,30,20,15,5]
   let numform = num.sort((a, b) => a - b )
   console.log(numform);
